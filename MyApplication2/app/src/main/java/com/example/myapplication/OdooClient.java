@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import java.util.concurrent.TimeUnit;
 
 public class OdooClient {
-    private static final String BASE_URL = "http://192.168.1.129";
+    private static final String BASE_URL = "http://192.168.231.253";
     private static OkHttpClient okHttpClient;
     private static Retrofit retrofit;
     private static OdooApiService apiService;
